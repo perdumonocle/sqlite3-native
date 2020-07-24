@@ -1,0 +1,16 @@
+[package]
+name = "sqlite3-native"
+version = "0.1.0"
+authors = ["perdumonocle <konstantin_1987@mail.ru>"]
+edition = "2018"
+description = "Rust native libsqlite3"
+authors = ["Захаров Константин Иванович <zaharov@prosoftsystems.ru>"]
+license = "MIT"
+edition = "2018"
+keywords = [ "db", "sql", "sqlite", "sqlite3", "libsqlite3" ]
+
+[dependencies]
+libc = "0.2"
+num-traits = "0.2"
+c2rust-bitfields = "0.3.0"
+f128 = "0.2.6"
